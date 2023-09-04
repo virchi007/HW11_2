@@ -12,16 +12,16 @@ public class EmployeeData {
 
 
     public static Employee[] getEmployeesData(){
-        Employee emp1 = new Employee("Jack", BASE_SALARY);
-        Employee emp2 = new Employee("Jane", BASE_SALARY);
-        Employee emp3 = new Employee("Jonny", BASE_SALARY);
+        Employee emp1 = new Employee("Harry Potter", BASE_SALARY);
+        Employee emp2 = new Employee("Ron Weasley", BASE_SALARY);
+        Employee emp3 = new Employee("Hermione Granger", BASE_SALARY);
 
         Employee employees[] = {emp1, emp2, emp3};
         return employees;
     }
 
     public static Worker[] getWorkerData () {
-        Worker w1 = new Worker("Ron Weasley", BASE_SALARY);
+        Worker w1 = new Worker("Hagrid", BASE_SALARY);
         Worker w2 = new Worker("Tonks", BASE_SALARY);
         Worker w3 = new Worker("Lupin", BASE_SALARY);
 
@@ -30,10 +30,10 @@ public class EmployeeData {
     }
 
     public static Manager[] getManagerData() {
-        Manager m1 = new Manager("Hermione Granger", BASE_SALARY, 5);
+        Manager m1 = new Manager("Lockhart", BASE_SALARY, 5);
         Manager m2 = new Manager("Minerva", BASE_SALARY, 5);
         Manager m3 = new Manager("Severus", BASE_SALARY, 2);
-        Manager m4 = new Manager("Molly", BASE_SALARY, 15);
+        Manager m4 = new Manager("Flitwick", BASE_SALARY, 15);
 
         Manager managers[] = {m1, m2, m3, m4};
         return managers;
